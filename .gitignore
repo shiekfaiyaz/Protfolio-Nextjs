@@ -10,6 +10,12 @@
 !.yarn/releases
 !.yarn/versions
 
+
+node_modules
+.next
+.env
+.DS_Store
+
 # testing
 /coverage
 

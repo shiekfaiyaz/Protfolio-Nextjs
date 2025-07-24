@@ -38,8 +38,7 @@ export default function About() {
          
           <div className="right w-[80%] m-auto md:w-[90%] relative md:my-[1.5rem]">
              <div className="relative w-fit">
-      <video
-       autoPlay loop muted playsInline
+      <video 
         ref={videoRef}
         width="500"
         height="400"
@@ -47,7 +46,7 @@ export default function About() {
         controls
         preload="none"
       >
-        <source src="/Coding-Video.mp4" type="video/mp4" />
+        <source src="https://res.cloudinary.com/devfyfr7k/video/upload/v1753385138/coding-vid_tbkxkj.mp4" type="video/mp4" />
         <track
           src="/path/to/captions.vtt"
           kind="subtitles"

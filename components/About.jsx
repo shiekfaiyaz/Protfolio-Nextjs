@@ -39,6 +39,7 @@ export default function About() {
           <div className="right w-[80%] m-auto md:w-[90%] relative md:my-[1.5rem]">
              <div className="relative w-fit">
       <video
+       autoPlay loop muted playsInline
         ref={videoRef}
         width="500"
         height="400"

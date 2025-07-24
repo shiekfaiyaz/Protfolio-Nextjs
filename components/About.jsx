@@ -46,7 +46,7 @@ export default function About() {
         controls
         preload="none"
       >
-        <source src="coding-vid.mp4" type="video/mp4" />
+        <source src="/coding-vid.mp4" type="video/mp4" />
         <track
           src="/path/to/captions.vtt"
           kind="subtitles"
